@@ -1,0 +1,36 @@
+{
+  "name": "tlcgolf-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/preval.macro": "^3.0.0",
+    "axios": "^1.3.2",
+    "babel-plugin-macros": "^3.1.0",
+    "crypto-js": "^4.1.1",
+    "moment": "^2.29.4",
+    "node-forge": "^1.3.1",
+    "preval.macro": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
+    "spinner-favicon": "^1.0.0",
+    "use-async-resource": "^2.2.2",
+    "uuid": "^9.0.0",
+    "vite-plugin-node-polyfills": "^0.7.0",
+    "vite-tsconfig-paths": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "name": "tlcgolf-vite",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "cSpell.words": ["COURSEDATA", "GHIN"]
+  }
+}

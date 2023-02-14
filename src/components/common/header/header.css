@@ -1,0 +1,21 @@
+
+.header {
+  align-items: center;
+  background-color: #00365f;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.28);
+  color: #fff;
+  font-size: 24px;
+  height: fit-content;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 8px 16px;
+  text-align: center;
+  top: 0;
+  width: fit-content;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  z-index: 1;
+}
