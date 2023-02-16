@@ -17,11 +17,6 @@ const SHEET_URL =
   BASE_URL + SHEET_ID + '?fields=sheets.properties&key=' + API_KEY;
 const SCOPE = 'https://www.googleapis.com/auth/spreadsheets';
 const X_CORS_API_KEY = import.meta.env.VITE_X_CORS_API_KEY;
-const BATCH_URL =
-  BASE_URL +
-  SHEET_ID +
-  '/values:batchGet?ranges=Schedules&ranges=Tutorials&ranges=Bets&ranges=Captains&ranges=GHIN_Numbers' +
-  BATCH_KEY;
 
 export {
   CLIENT_ID,
@@ -39,5 +34,5 @@ export {
   SHEET_URL,
   SCOPE,
   X_CORS_API_KEY,
-  BATCH_URL,
+  BATCH_KEY,
 };
