@@ -5,7 +5,6 @@ import setCanadianData from '@/services/utils/setCanadianData';
 import useFetchRequests from '@/services/hooks/useFetchRequests';
 import useFindGolfer from '@/services/hooks/useFindGolfer';
 import setFoundGolferAndIsLoggedIn from '@/services/utils/setFoundGolferAndIsLoggedIn';
-import { get, set } from '@/utils/localStorage';
 
 export default function useFromGHIN() {
   const [loading, setLoading] = useState(true);

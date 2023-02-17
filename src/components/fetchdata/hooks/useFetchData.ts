@@ -13,7 +13,6 @@ import setBets from '@/services/utils/setBets';
 import setSchedules from '@/services/utils/setSchedules';
 import setSheetUrl from '@/services/utils/setSheetUrl';
 import setCourseData from '@/services/utils/setCourseData';
-import processCourseDataFromGHIN from '../../../services/utils/processCourseDataFromGHIN';
 import useFetchSheetsData from '@/services/hooks/useFetchSheetsData';
 import useFetchToken from '@/services/hooks/useFetchToken';
 import { get, set } from '@/utils/localStorage';
